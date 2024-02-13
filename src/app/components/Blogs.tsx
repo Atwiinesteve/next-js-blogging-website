@@ -7,7 +7,7 @@ import { Avatar, AvatarGroup } from "@nextui-org/react";
 
 export default function Component() {
 	return (
-		<div className="bg-transparent max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 mt-32">
+		<div className="container bg-transparent max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 mt-32">
 			<h3 className="text-center font-extrabold text-[26px] mb-14">
 				Featured Posts
 			</h3>

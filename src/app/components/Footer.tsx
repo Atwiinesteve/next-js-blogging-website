@@ -3,9 +3,9 @@ import { JSX, SVGProps } from "react";
 
 export default function Footer() {
 	return (
-		<footer className="bg-white text-gray-600 mt-32">
+		<footer className="bg-white text-gray-600 mt-32 sm:text-center">
 			<div className="max-w-6xl mx-auto px-4 py-16 grid grid-cols-1 md:grid-cols-4 gap-8">
-				<div>
+				<div className="sm:text-center sm:flex sm:flex-col sm:items-center sm:justify-center">
 					<h2 className="text-3xl font-bold text-gray-900 mb-4">Porto</h2>
 					<p className="mb-4">
 						Porto is a premium multipurpose Ghost theme suitable for personal,
