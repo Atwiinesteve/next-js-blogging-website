@@ -4,6 +4,7 @@ import "./globals.css";
 
 import UpperNavbar from "./components/UpperNavbar";
 import MainNavbar from "./components/MainNavbar";
+import Footer from "./components/Footer";
 
 const manrope = Manrope({ subsets: ["latin"] });
 
@@ -19,12 +20,12 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			
-				<body className={`${manrope.className}`}>
-					<UpperNavbar />
-					<MainNavbar />
-					{children}
-				</body>
+			<body className={`${manrope.className}`}>
+				<UpperNavbar />
+				<MainNavbar />
+				{children}
+				<Footer />
+			</body>
 		</html>
 	);
 }
