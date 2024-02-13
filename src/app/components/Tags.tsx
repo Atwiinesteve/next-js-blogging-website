@@ -1,16 +1,10 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/bUrxOv779jZ
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
 import { AvatarImage, Avatar } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import { JSX, SVGProps } from "react";
 
 export default function Tags() {
 	return (
-		<div className="flex flex-col justify-center gap-4 p-4 bg-white mt-32 w-full">
+		<div className="container flex flex-col justify-center gap-4 p-4 bg-white mt-32 w-full">
 			<h2 className="w-full text-center text-[24px] font-bold">Popular Tags</h2>
 			<div className="flex flex-wrap items-center justify-center mt-3 gap-4 mx-auto">
 				<div className="flex items-center justify-center space-x-5 h-[100px] w-[250px] border rounded-full shadow-sm">
@@ -139,7 +133,7 @@ export default function Tags() {
 						<div className="text-[14px] text-gray-500">7 posts</div>
 					</div>
 				</div>
-				<Button className="flex items-center space-x-1" variant="outline">
+				<Button className="flex items-center space-x-1">
 					<span>See all tags</span>
 					<ArrowRightIcon className="w-4 h-4" />
 				</Button>
